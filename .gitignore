@@ -1,8 +1,6 @@
 chat.html
 chat.log
 main.py
-server.py
 test_ttt.py
 __pycache__
-templates
 .pytest_cache
