@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="status">Ваш ход: X</div>
+    <h1>
+    <table>
+        <tr>
+            <td onclick="press('0')" id="c0">-</td>
+            <td onclick="press('1')" id="c1">-</td>
+            <td onclick="press('2')" id="c2">-</td>
+        </tr>
+        <tr>
+            <td onclick="press('3')" id="c3">-</td>
+            <td onclick="press('4')" id="c4">-</td>
+            <td onclick="press('5')" id="c5">-</td>
+        </tr>
+        <tr>
+            <td onclick="press('6')" id="c6">-</td>
+            <td onclick="press('7')" id="c7">-</td>
+            <td onclick="press('8')" id="c8">-</td>
+        </tr>
+</table>
+</h1>
+<button onclick="resetGame()">Новая игра</button>
+</body>
+<script src="tttjs.js"></script>
+</html>
